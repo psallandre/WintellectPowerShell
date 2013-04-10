@@ -37,9 +37,7 @@ New-Item -type directory -Path $fullPath -ErrorAction SilentlyContinue > $null
 
 Copy-Item $codeFiles -Destination $fullPath -Force 
 
-""
 "Execute 'import-module WintellectPowerShell' to use"
-""
 
 # SIG # Begin signature block
 # MIIO0QYJKoZIhvcNAQcCoIIOwjCCDr4CAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
